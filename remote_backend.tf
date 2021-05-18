@@ -4,7 +4,7 @@
 
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "torsten176"
     workspaces {
       name = "hashicat-gcp"
